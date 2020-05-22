@@ -3,3 +3,23 @@ body {
     color: #0ff;
     margin: 0 auto;
 }
+
+header {
+    height: 100px;
+    width: 100%;
+    background: #fff;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background: #00f;
+}
+
+main {
+
+}
+
+footer {
+    
+}
