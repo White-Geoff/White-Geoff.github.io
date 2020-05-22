@@ -114,4 +114,22 @@ footer {
     .languageBox {
         display: block;
     }
+
+    #emailForm {
+        display: none;
+    }
+
+    #mobileContact {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 551px) {
+    #emailForm {
+        display: block;
+    }
+
+    #mobileContact {
+        display: none;
+    }
 }
