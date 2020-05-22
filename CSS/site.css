@@ -54,6 +54,7 @@ main {
         display: flex;
         flex-wrap: wrap;
         padding: 50px 0;
+        justify-content: space-evenly;
     }
 
     #aboutMe {
@@ -91,6 +92,19 @@ main {
     .educationBox {
         padding: 20px;
     }
+
+    .projectBox {
+        border:1px solid #aca438;
+    }
+
+        .projectBox>a {
+            background: #000;
+            border-radius: 100%;
+            color: #fff;
+            padding: 25px;
+        }
+
+    
 
 footer {
 
