@@ -97,7 +97,8 @@ main {
         border:1px solid #aca438;
     }
 
-        .projectBox>a {
+        .projectBox>a,
+        footer>a {
             background: #000;
             border-radius: 100%;
             color: #fff;
@@ -107,7 +108,8 @@ main {
     
 
 footer {
-
+    display: flex;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width: 550px) {
