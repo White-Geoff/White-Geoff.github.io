@@ -53,6 +53,7 @@ main {
     .mainBox {
         display: flex;
         flex-wrap: wrap;
+        padding: 50px 0;
     }
 
     #aboutMe {
@@ -86,6 +87,10 @@ main {
         .languageBox>h2 {
             padding: 10px;
         }
+
+    .educationBox {
+        padding: 20px;
+    }
 
 footer {
 
