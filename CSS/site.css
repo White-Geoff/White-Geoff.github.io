@@ -75,7 +75,7 @@ main {
         text-align: center;
         width: 33%;
         height: 100px;
-        padding-top: 100px;
+        padding: 25px;
     }
 
         .languageBox>img {
@@ -102,7 +102,7 @@ main {
             background: #000;
             border-radius: 100%;
             color: #fff;
-            padding: 25px;
+            padding: 75px 25px 25px 25px;
         }
 
     
