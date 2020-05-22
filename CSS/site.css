@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    height: 100px;
+    height: 200px;
     width: 100%;
     text-align: center;
     background: #C33764;  /* fallback for old browsers */
@@ -13,6 +13,10 @@ header {
     background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-top: 50px;
 }
+
+    h1  {
+        padding-top: 75px;
+    }
 
 nav {
     height: 50px;
@@ -25,18 +29,19 @@ nav {
     position: fixed;
     z-index: 3;
     top: 0px;
-    
+    opacity: 0.5;
 }
 
     a {
         text-decoration: none;
         padding: 15px 25px;
-        background: #999;
+        background: #777;
         border-radius: 75%;
+        color: #fff;
     }
 
     a:hover {
-        background: #ccc;
+        background: #aaa;
     }
 
 main {
@@ -44,13 +49,14 @@ main {
     width: 100%;
 }
 
+
     .mainBox {
         display: flex;
         flex-wrap: wrap;
     }
 
     #aboutMe {
-        padding-top: 35px;
+        padding-top: 40px;
     }
 
     #aboutImage {
@@ -60,9 +66,33 @@ main {
     #aboutText {
         max-width: 250px;
         padding: 10px 25px;
-
     }
+
+    .languageBox {
+        display: flex;
+        text-align: center;
+        width: 33%;
+        height: 100px;
+        padding-top: 100px;
+    }
+
+        .languageBox>img {
+            width: 100px;
+            height: 100px;
+            padding:1px;
+            border:1px solid #314a72;
+        }
+
+        .languageBox>h2 {
+            padding: 10px;
+        }
 
 footer {
 
+}
+
+@media screen and (max-width: 550px) {
+    .languageBox {
+        display: block;
+    }
 }
