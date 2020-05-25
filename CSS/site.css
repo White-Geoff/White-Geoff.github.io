@@ -97,8 +97,14 @@ main {
         border:1px solid #aca438;
     }
 
-        .projectBox>a,
-        footer>a {
+        .projectBox>a {
+            background: #000;
+            border-radius: 100%;
+            color: #fff;
+        }
+
+        footer>a
+         {
             background: #000;
             border-radius: 100%;
             color: #fff;
