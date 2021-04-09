@@ -91,6 +91,7 @@ main {
 
     .educationBox {
         padding: 20px;
+        text-align: center;
     }
 
     .projectBox {
@@ -111,7 +112,10 @@ main {
             padding: 75px 25px 25px 25px;
         }
 
-    
+  
+img {
+    padding: 25px;
+}
 
 footer {
     display: flex;
